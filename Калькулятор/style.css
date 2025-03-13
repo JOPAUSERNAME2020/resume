@@ -1,0 +1,74 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+/* Стили для самого калькулятора */
+
+#calculator {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 515px;
+    padding: 20px;
+    background-color: #F19310;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для дисплея калькулятора */
+
+#display {
+    width: 280px;
+    height: 56px;
+    border-radius: 5px;
+    padding: 4px;
+    border: none;
+    font-size: 20px;
+    background-color: #fff;
+    text-align: right;
+}
+
+/* Стили для кнопок калькулятора */
+
+button {
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+
+/* Эффект при наведении на кнопки калькулятора */
+
+button:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+
+
+/* Стили для формы где находятся кнопоки калькулятора */
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    width: 320px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
